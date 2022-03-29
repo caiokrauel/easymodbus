@@ -1,4 +1,4 @@
-<h3 align="left">Easymodbus TCP/IP for Java</h3>
+<h3 align="left">Easymodbus TCP/IP for Java to use in maven</h3>
 <h3 align="left">Project developed by Rossmann-Engineering for ModbusTCP communication in Java.</h3>
 <p align="left"> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="30" height="30"/> </a> </p>
 
