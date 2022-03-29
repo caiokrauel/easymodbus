@@ -48,7 +48,7 @@ import easymodbus.exceptions.SerialPortException;
 import easymodbus.exceptions.StartingAddressInvalidException;
 
 /**
- * @author Stefan Roßmann
+ * @author Stefan Roï¿½mann
  */
 public class ModbusClient {
 	private Socket tcpClientSocket = new Socket();
@@ -79,10 +79,10 @@ public class ModbusClient {
 	private boolean debug = false;
 
 	public ModbusClient(String ipAddress, int port) {
-		System.out.println("EasyModbus Client Library");
-		System.out.println("Copyright (c) Stefan Rossmann Engineering Solutions");
-		System.out.println("www.rossmann-engineering.de");
-		System.out.println("");
+//		System.out.println("EasyModbus Client Library");
+//		System.out.println("Copyright (c) Stefan Rossmann Engineering Solutions");
+//		System.out.println("www.rossmann-engineering.de");
+//		System.out.println("");
 		if (debug)
 			StoreLogData.getInstance().Store(
 					"EasyModbus library initialized for Modbus-TCP, IPAddress: " + ipAddress + ", Port: " + port);
@@ -91,25 +91,12 @@ public class ModbusClient {
 	}
 
 	public ModbusClient() {
-		System.out.println("EasyModbus Client Library");
-		System.out.println("Copyright (c) Stefan Rossmann Engineering Solutions");
-		System.out.println("www.rossmann-engineering.de");
-		System.out.println("");
+//		System.out.println("EasyModbus Client Library");
+//		System.out.println("Copyright (c) Stefan Rossmann Engineering Solutions");
+//		System.out.println("www.rossmann-engineering.de");
+//		System.out.println("");
 		if (debug)
 			StoreLogData.getInstance().Store("EasyModbus library initialized for Modbus-TCP");
-	}
-
-	public ModbusClient(String serialPort) {
-		System.out.println("EasyModbus Client Library");
-		System.out.println("Copyright (c) Stefan Rossmann Engineering Solutions");
-		System.out.println("www.rossmann-engineering.de");
-		System.out.println("");
-		if (debug)
-			StoreLogData.getInstance().Store("EasyModbus library initialized for Modbus-RTU, COM-Port: " + serialPort);
-		this.comPort = serialPort;
-		this.serialflag = true;
-		if (debug)
-			StoreLogData.getInstance().Store("Open Serial Port: " + comPort);
 	}
 
 	/**
