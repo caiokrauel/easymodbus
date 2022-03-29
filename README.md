@@ -1,9 +1,11 @@
-<h3 align="left">Easymodbus TCP/IP for Java to use in maven</h3>
-<h3 align="left">Project developed by Rossmann-Engineering for ModbusTCP communication in Java.</h3>
-<p align="left"> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="30" height="30"/> </a> </p>
+<h3 align="left">Easymodbus TCP/IP for Java to use in maven project
+<a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="30" height="30"/> </a>
+</h3>
+
+<h3 align="left">Project developed by Rossmann-Engineering. All credits to him</h3>
 
 <br>
-<p>Download jar original: <a href="http://easymodbustcp.net/en/">http://easymodbustcp.net/en/</a></p>
+<p>Download .jar original: <a href="http://easymodbustcp.net/en/">http://easymodbustcp.net/en/</a></p>
 <br>
 <br>
 
@@ -26,3 +28,8 @@
 &nbsp; &lt;/dependencies&gt;<br>
 ...<br>
 </p>
+<br>
+<br>
+<p>This is my firt public repository</p>
+<p>I hope it helps you</p>
+<p>Caio Murilo Krauel</p>
